@@ -4,7 +4,7 @@
 
 import { BlogPostList } from "@/types/posts";
 
-export let posts: BlogPostList = [
+export const posts: BlogPostList = [
   {
     id: 1,
     title: "Getting Started with Next.js",
