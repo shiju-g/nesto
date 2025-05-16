@@ -1,10 +1,11 @@
+
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable prefer-const */
 
 import { BlogPostList } from "@/types/posts";
 
-export const posts: BlogPostList = [
+export let posts: BlogPostList = [
   {
     id: 1,
     title: "Getting Started with Next.js",
